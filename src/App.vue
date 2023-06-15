@@ -14,9 +14,9 @@ export default{
 </script>
 
 <template>
- <HeaderApp/>
- <MainApp/>
- <FooterApp/>
+  <HeaderApp/>
+  <MainApp/>
+  <FooterApp/>
 </template>
 
 <style>

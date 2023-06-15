@@ -1,10 +1,22 @@
 <template>
     <header>
         <div class="logo_img">
-
+            <img src="../assets/img/dc-logo.png" alt="">
         </div>
         <div class="navbar">
-
+            <ul>
+                <li>H1></li>
+                <li>H1></li>
+                <li>H1></li>
+                <li>H1></li>
+                <li>H1></li>
+                <li>h1</li>
+                <li>H1></li>
+                <li>H1></li>
+                <li>H1></li>
+                <li>H1></li>
+                <li>H1></li>
+            </ul>
         </div>
     </header>
 </template>
@@ -25,16 +37,20 @@ export default {
 header{
     display: flex;
     justify-content: space-between;
-    height: 250px;
 }
 div.logo_img {
     background-color: red;
-    width: 10%;
 }
 
 div.navbar {
     background-color: red;
-    width: 55%;
+    display: flex;
+}
+
+div.navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
 }
 
 </style>

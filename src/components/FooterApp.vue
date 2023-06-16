@@ -48,7 +48,23 @@
                 <img src="../assets/img/dc-logo-bg.png" alt="">
             </div>
         </section>
-        <section class="lower_footer"></section>
+        <section class="lower_footer">
+            <div class="button">
+                <button>
+                    Sign-up Now!
+                </button>
+            </div>
+            <div class="social">
+                <p>
+                    FolloUs
+                </p>
+                <img src="../assets/img/footer-facebook.png" alt="">
+                <img src="../assets/img/footer-twitter.png" alt="">
+                <img src="../assets/img/footer-youtube.png" alt="">
+                <img src="../assets/img/footer-pinterest.png" alt="">
+                <img src="../assets/img/footer-periscope.png" alt="">
+            </div>
+        </section>
     </footer>
 </template>
 
@@ -83,5 +99,13 @@ ul{
 }
 ul li{
     color: white;
+}
+section.lower_footer{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+div.social{
+    display: flex;
 }
 </style>

@@ -5,17 +5,9 @@
         </div>
         <div class="navbar">
             <ul>
-                <li>H1></li>
-                <li>H1></li>
-                <li>H1></li>
-                <li>H1></li>
-                <li>H1></li>
-                <li>h1</li>
-                <li>H1></li>
-                <li>H1></li>
-                <li>H1></li>
-                <li>H1></li>
-                <li>H1></li>
+                <li v-for="obj in navbarList">
+                    {{ obj }}
+                </li>
             </ul>
         </div>
     </header>
@@ -26,7 +18,18 @@ export default {
     name: 'HeaderApp',
     data(){
         return{
-
+           navbarList:[
+                "Characters",
+                "Comics",
+                "Movies",
+                "TV",
+                "Games",
+                "Collectibles",
+                "Videos",
+                "Fans",
+                "News",
+                "Shop"            
+           ]
         }
     }
 }

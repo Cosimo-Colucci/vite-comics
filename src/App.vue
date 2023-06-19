@@ -8,7 +8,7 @@ export default{
   components:{
     HeaderApp,
     MainApp,
-    FooterApp
+    FooterApp,
   }
 }
 </script>
